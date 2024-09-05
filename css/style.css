@@ -195,12 +195,12 @@ ul
 
 }
 .imgHoverShowcase {
-  transition: transform 0.15s ease;
+  transition: transform 0.20s ease-out;
 }
 
 .imgHoverShowcase:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
   z-index: 999;
 }
 .dk
